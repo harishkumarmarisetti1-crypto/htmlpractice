@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project14</title>
+  </head>
+  <body>
+    <header>
+      <h3>Responsive Images</h3>
+      <p>This shows based on the viewport devices different picture shows</p>
+    </header>
+    <main>
+      <section>
+        <picture>
+          <source
+            media="(max-width: 650px)"
+            srcset="
+              https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwO0wY2zmLQ-AFOwPUfj_GWNfC4AVxIUeIKEocoo0a9g&s=10
+            "
+          />
+          <source
+            media="(max-width: 465px)"
+            srcset="
+              https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBB4LQTn0vRq4ydPLp-uTj_lEUHOHYWUU18JlCq5KuMw&s=10
+            "
+          />
+          <source
+            media="(max-widht:100px)"
+            srcset="
+              https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRd_a2H5jUyq48qO6R24R5TO_-pbjRXn3kLfIicLlfqMw&s=10
+            "
+          />
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAPf_062JKWOBQr9rKxfyjLtlwzCn6Wwx_fJ6vQDIAgQ&s=10"
+            alt="Meeting Image"
+          />
+        </picture>
+      </section>
+    </main>
+  </body>
+</html>
